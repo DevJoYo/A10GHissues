@@ -2,9 +2,11 @@
 # matches this website's version almost identically:
 #   https://realpython.com/python-rock-paper-scissors/
 
+
 import random
 
 loop = 1
+
 while loop == 1:
     user_action = input("Enter throw (rock, paper, scissors): ")
     ai_action = random.choice(["rock", "paper", "scissors"])
@@ -38,3 +40,5 @@ while loop == 1:
             loop = 0
         else:
             print("incorrect option entered. Please enter Y or N")
+  
+
